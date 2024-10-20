@@ -12,7 +12,7 @@ let snakeArr = [
 
 food = {x: 6, y: 7};
 
-// Game Functions
+
 function main(ctime) {
     window.requestAnimationFrame(main);
     // console.log(ctime)
@@ -34,7 +34,7 @@ function isCollide(snake) {
     if(snake[0].x >= 18 || snake[0].x <=0 || snake[0].y >= 18 || snake[0].y <=0){
         return true;
     }
-        
+        // return
     return false;
 }
 
